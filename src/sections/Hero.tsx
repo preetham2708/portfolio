@@ -32,7 +32,7 @@ function Hero() {
       <img
         src={photo}
         alt="Saipreetham Votarikari"
-        className="h-80 w-64 rounded-3xl object-cover object-top shadow-2xl shadow-sky-500/20 ring-1 ring-white/10 md:h-[28rem] md:w-80"
+        className="h-64 w-44 rounded-3xl object-cover object-[center_55%] shadow-2xl shadow-sky-500/20 ring-1 ring-white/10 md:h-[30rem] md:w-80"
       />
     </section>
   )
