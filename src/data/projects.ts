@@ -18,7 +18,7 @@ export const projects: Project[] = [
       'Dockerized, with LangSmith for end-to-end observability.',
     ],
     tech: ['LangGraph', 'LangChain', 'Groq', 'FAISS', 'FastAPI', 'Next.js', 'Docker'],
-    github: '',
+    github: 'https://github.com/preetham2708/MyPerplexity',
     demo: '',
   },
   {
@@ -31,7 +31,7 @@ export const projects: Project[] = [
       'Dockerized, with LangSmith observability.',
     ],
     tech: ['LangGraph', 'MCP', 'Groq', 'FastAPI', 'SQLite', 'Docker'],
-    github: '',
+    github: 'https://github.com/preetham2708/Multi-Agent-Travel-Planner',
     demo: '',
   },
 ]
