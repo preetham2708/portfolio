@@ -1,4 +1,7 @@
 import photo from '../assets/preetham-tall.jpg'
+import TypingText from '../components/TypingText'
+
+const roles = ['Generative AI Developer', 'Data Scientist', 'RAG & LangGraph Builder']
 
 function Hero() {
   return (
@@ -11,8 +14,8 @@ function Hero() {
         <h2 className="mt-4 text-2xl font-semibold text-sky-400 md:text-3xl">
           Agentic AI & ML Engineer
         </h2>
-        <p className="mt-3 text-lg text-slate-400">
-          Generative AI Developer • Data Scientist
+        <p className="mt-3 h-7 text-lg text-slate-400">
+          <TypingText words={roles} />
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4 md:justify-start">
           <a href="#projects" className="rounded-lg bg-sky-500 px-6 py-3 font-semibold text-white transition hover:bg-sky-400">
