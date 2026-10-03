@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Reveal from './components/Reveal'
 import NeuralBackground from './components/NeuralBackground'
 import Hero from './sections/Hero'
+import Stats from './sections/Stats'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
@@ -38,6 +39,7 @@ function App() {
           <Hero />
         </div>
       </div>
+      <Reveal><Stats /></Reveal>
       <Reveal><About /></Reveal>
       <Reveal><Projects /></Reveal>
       <Reveal><Skills /></Reveal>
