@@ -3,6 +3,7 @@ import Lenis from 'lenis'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
+
 import Reveal from './components/Reveal'
 import NeuralBackground from './components/NeuralBackground'
 import Hero from './sections/Hero'
@@ -31,6 +32,7 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-950">
       <Navbar />
+
       <div className="relative">
         <div className="pointer-events-none absolute inset-0 opacity-60">
           <NeuralBackground />
