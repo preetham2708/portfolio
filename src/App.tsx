@@ -4,6 +4,7 @@ import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
 import Reveal from './components/Reveal'
+import NeuralBackground from './components/NeuralBackground'
 import Hero from './sections/Hero'
 import About from './sections/About'
 import Projects from './sections/Projects'
@@ -29,7 +30,14 @@ function App() {
   return (
     <div className="min-h-screen bg-slate-950">
       <Navbar />
-      <Hero />
+      <div className="relative">
+        <div className="pointer-events-none absolute inset-0 opacity-60">
+          <NeuralBackground />
+        </div>
+        <div className="relative">
+          <Hero />
+        </div>
+      </div>
       <Reveal><About /></Reveal>
       <Reveal><Projects /></Reveal>
       <Reveal><Skills /></Reveal>
