@@ -1,4 +1,5 @@
-import photo from '../assets/preetham-tall.jpg'
+[IO.File]::WriteAllText("$PWD\src\sections\Hero.tsx", @'
+import photo from '../assets/preetham-cutout.webp'
 import TypingText from '../components/TypingText'
 
 const roles = ['Generative AI Developer', 'Data Scientist', 'RAG & LangGraph Builder']
@@ -29,13 +30,28 @@ function Hero() {
           </a>
         </div>
       </div>
-      <img
-        src={photo}
-        alt="Saipreetham Votarikari"
-        className="h-64 w-44 rounded-3xl object-cover object-[center_55%] shadow-2xl shadow-sky-500/20 ring-1 ring-white/10 md:h-[30rem] md:w-80"
-      />
+
+      <div className="relative h-80 w-72 md:h-[34rem] md:w-[26rem]">
+        <div className="absolute bottom-0 left-1/2 h-60 w-60 -translate-x-1/2 rounded-full bg-gradient-to-tr from-sky-500 to-indigo-600 opacity-80 shadow-[0_0_80px_rgba(56,189,248,0.45)] md:h-[22rem] md:w-[22rem]" />
+        <div className="absolute -bottom-3 left-1/2 h-[16.5rem] w-[16.5rem] -translate-x-1/2 rounded-full border border-sky-400/30 md:h-[24rem] md:w-[24rem]" />
+        <img
+          src={photo}
+          alt="Saipreetham Votarikari"
+          className="absolute bottom-0 left-1/2 h-full -translate-x-1/2 object-contain [mask-image:linear-gradient(to_bottom,black_75%,transparent)]"
+        />
+        <span className="absolute left-0 top-16 hidden animate-float rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-sky-300 backdrop-blur md:block">
+          LangGraph
+        </span>
+        <span className="absolute right-0 top-40 hidden animate-float rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-sky-300 backdrop-blur [animation-delay:1s] md:block">
+          RAG
+        </span>
+        <span className="absolute bottom-28 left-2 hidden animate-float rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-sky-300 backdrop-blur [animation-delay:2s] md:block">
+          MCP
+        </span>
+      </div>
     </section>
   )
 }
 
 export default Hero
+'@)
