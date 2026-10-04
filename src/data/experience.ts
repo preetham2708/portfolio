@@ -28,19 +28,19 @@ export const certificates: Certificate[] = [
     title: 'Oracle Agentic AI Foundations Associate',
     issuer: 'Oracle',
     description: 'Designing AI agents with LangChain and MCP, and building agentic AI solutions on Oracle Cloud Infrastructure.',
-    link: '',
+    link: '/certificates/oracle-agentic-ai.pdf',
   },
   {
     title: 'Data Science Program Certification',
     issuer: 'ExcelR',
     description: '200+ hours of training in Python, Machine Learning and Data Analysis, with 3+ real-world projects.',
-    link: '',
+    link: '/certificates/excelr-data-science.pdf',
   },
   {
     title: 'Data Science Internship',
     issuer: 'AIVariant',
     description: 'Completed a 3-month Data Science internship.',
-    link: '',
+    link: '/certificates/aivariant-internship.pdf',
   },
   {
     title: 'Freshman Code Cup',

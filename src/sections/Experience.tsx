@@ -36,7 +36,7 @@ function Experience() {
             <p className="mt-3 text-slate-300">{cert.description}</p>
             {cert.link && (
               <a href={cert.link} target="_blank" rel="noreferrer" className="mt-auto pt-4 font-semibold text-white hover:text-sky-400">
-                Verify Certificate →
+                View Certificate →
               </a>
             )}
           </div>
