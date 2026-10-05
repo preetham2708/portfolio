@@ -21,6 +21,9 @@ function Hero() {
           <a href="#projects" className="rounded-lg bg-sky-500 px-6 py-3 font-semibold text-white transition hover:bg-sky-400">
             View Projects
           </a>
+          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="rounded-lg border border-sky-400 px-6 py-3 font-semibold text-sky-400 transition hover:bg-sky-400 hover:text-slate-950">
+            Resume
+          </a>
           <a href="https://github.com/preetham2708" target="_blank" rel="noreferrer" className="rounded-lg border border-white/20 px-6 py-3 font-semibold text-white transition hover:border-sky-400 hover:text-sky-400">
             GitHub
           </a>

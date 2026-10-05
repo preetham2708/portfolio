@@ -29,6 +29,13 @@ function Contact() {
           </a>
         ))}
       </div>
+      <a
+        href="/resume.pdf"
+        download
+        className="mt-10 inline-block rounded-lg bg-sky-500 px-8 py-3 font-semibold text-white transition hover:bg-sky-400"
+      >
+        Download Resume
+      </a>
     </section>
   )
 }
